@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-	baseURL: "https://raw.githubusercontent.com/JISG92/Petshop/ac51bd2cc13afc6d196f4ed010afb4bb25bcebca/db.json",
+	baseURL: "https://github.com/JISG92/Petshop/tree/main/db.json",
 });
 
 export const buscar = async (url, setData) => {
