@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-	baseURL: "/db.json",
+	baseURL: "main/db.json",
 });
 
 export const buscar = async (url, setData) => {
